@@ -1,0 +1,222 @@
+.nutrient-main-container {
+    position: absolute;
+    margin-top: 15vh;
+}
+
+.podium {
+    position: absolute;
+    left: 3vw;
+    top: 2vh;
+    width: 35vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.podium-container{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    top: 0;
+    width: 30%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.podium-title {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+.podium-image {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 20px;
+}
+
+.podium-rank-1 {
+    height: 60%;
+    background-color: gold;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.podium-rank-2 {
+    height: 40%;
+    background-color: silver;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.podium-rank-3 {
+    height: 20%;
+    background-color: rgb(205, 127, 50); /*bronze*/
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.least-nutrient-container {
+    position: absolute;
+    left: 40vw;
+    top: 10vh;
+    width: 17vw;
+    height: 60vh;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.least-nutrient-title {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.least-nutrient-image {
+    width: 80%;
+    aspect-ratio: 1;
+    border-radius: 20px;
+    margin-top: 12vh;
+}
+
+.nutrient-table-title1 {
+    position: absolute;
+    top: 2vh;
+    left: 59vw;
+    width: 40vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bold;
+}
+
+.nutrient-table-title2 {
+    position: absolute;
+    top: 40vh;
+    left: 59vw;
+    width: 40vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bold;
+}
+
+.nutrient-table-div1 {
+    background-color: black;
+    position: absolute;
+    top: 6vh;
+    left: 59vw;
+    width: 40vw;
+    height: 30vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.nutrient-table-div2 {
+    background-color: black;
+    position: absolute;
+    top: 44vh;
+    left: 59vw;
+    width: 40vw;
+    height: 30vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+.nutrient-item-table {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: black 5px solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.nutrient-item-table thead {
+    height: 5vh;
+}
+
+.nutrient-item-table tbody tr {
+    height: 5vh;
+}
+
+.nutrient-item-table th {
+    background-color: black;
+    color: white;
+}
+
+.nutrient-item-table td {
+    text-align: center;
+    background-color: white;    
+}
+
+.nutrient-header {
+    width: 15vw;
+}
