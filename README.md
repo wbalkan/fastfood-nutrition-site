@@ -1,5 +1,5 @@
 # [Fast Food Nutrition](https://fastfood-nutrition-site.vercel.app/)
-## Note: because the backend is hosted on the free tier of Render, the pages which require database queries will take 2-3 minutes to load while backend spins back up
+## Note: site is no longer up! Free tier of AWS Learner Lab ran out!
 This website is composed of three parts:
 1. Databse - A relational database hosted on Amazon AWS RDS containing information about fastfood nutrition
 2. Backend - A backend hosted on Render which queries the database upon api requests
