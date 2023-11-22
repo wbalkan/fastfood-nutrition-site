@@ -1,5 +1,6 @@
 # [Fast Food Nutrition](https://fastfood-nutrition-site.vercel.app/)
 ## Note: site is no longer up! Free tier of AWS Learner Lab ran out!
+## Write-up [here](https://github.com/wbalkan/cs61-final-project/wiki)
 This website is composed of three parts:
 1. Database - A relational database hosted on Amazon AWS RDS containing information about fastfood nutrition
 2. Backend - A backend hosted on Render which queries the database upon api requests
